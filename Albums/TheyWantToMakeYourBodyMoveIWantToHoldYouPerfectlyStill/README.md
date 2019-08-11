@@ -31,7 +31,9 @@ released August 21, 2012
 
 All sound and visuals by J.Siemasko 
 
-All sound generated using Supercollider 
+All sound generated using Supercollider
+
+Art created using [Context Free](https://www.contextfreeart.org/)
 
 Track 1 uses includes some code written by [Carl Testa](carltesta.net) 
 
