@@ -1,0 +1,2 @@
+//Rhythmic mouse controlled tweet that sounds sort of like a turntable slowing down. Kinda.
+play{Mix.ar(SinOsc.ar(MouseY.kr([100,150],[800,790]))*SinOsc.ar((60..115)*MouseX.kr([0.001,0.1],[3,4])))*0.015} // #Supercollider

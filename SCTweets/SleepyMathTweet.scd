@@ -1,0 +1,1 @@
+Pspawner{|sp|6.do{|i|sp.par(Pbind(*[degree:Pseq(((0..i)*2),inf),octave:7-i,dur:0.2*(2**i)]))};sp.seq}.trace.play //#supercollider #sc140

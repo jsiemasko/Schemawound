@@ -1,0 +1,2 @@
+//2 Dseq patterns modulating each other. Speed of each pattern controlled by a mouse axis
+play{x=Dseq((5..20)*50,inf);y={|a|SinOsc.ar(Demand.kr(Impulse.kr(a),0,x))};y.(MouseY.kr(1,7))*y.(MouseX.kr(1,7))*SinOsc.ar([990,600])}

@@ -1,0 +1,2 @@
+//Interesting delay FX for audio input tweet. I only tried it on bass guitar but would likely work on anything. Seems to sound better on shorter, percussive notes.
+play{a=15;b=15;c=100;x=SoundIn.ar([0,1]);y=x;a.do{|i|y=y+(CombL.ar(x,3,(i+1)/b,3)/(a-i))};y*SinOsc.ar(c)} //FX For BassGuitar #Supercollider

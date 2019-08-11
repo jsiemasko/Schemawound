@@ -1,0 +1,1 @@
+play{x={|a,b,c|Pulse.kr(a).range(b,c)};(Blip.ar(x.(0.87,4,80)*x.(1.7,1,10)*x.(1.13,1,10))*SinOsc.ar(LFTri.ar(0.006,0,9999)))*SinOsc.ar(50)}

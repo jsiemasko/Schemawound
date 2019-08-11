@@ -1,0 +1,1 @@
+{CombC.ar(GrainFM.ar(2,Impulse.kr(LFTri.kr(0.08,0,10,10)),0.1,LFTri.kr(0.04,0,40,400),500,LFNoise1.kr.range(1,10),0,-1),0.3,3,5)}.play;

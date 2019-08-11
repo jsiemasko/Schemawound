@@ -1,0 +1,1 @@
+play{a=Mix(Array.fill(75,{|i|SinOsc.ar(rrand(1,50)*i+10,0,LFNoise1.kr([1.8,2.3]))}))*0.02;CombL.ar(a,15,SinOsc.ar([0.1,0.11],0,0.5,0.6),10)}

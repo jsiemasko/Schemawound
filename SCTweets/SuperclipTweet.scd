@@ -1,0 +1,1 @@
+fork{x={Klang.ar(`(Array.fill(20,{[500.rand,1.0.rand,2pi.rand]})))};loop{play{x.()*x.()*x.()*EnvGen.kr(Env.linen(0.1,0,1,0.1))!2};1.wait}}

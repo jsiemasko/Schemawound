@@ -1,0 +1,1 @@
+‎{x=FreeVerb.ar(EnvGen.ar(Env.perc(),Dust.ar(1.17))*Saw.ar(SinOsc.ar([0.04, 0.024]).abs*SinOsc.ar(0.001).range(620,720)),0.5).clip(-0.7,0.7)!2;x=x+DelayN.ar(x,2,SinOsc.ar(0.1,0,1.9,1).abs);x=x+DelayC.ar(x)}.play // #ToLongToTweet
