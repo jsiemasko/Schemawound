@@ -1,0 +1,1 @@
+play{x=GVerb.ar(SinOsc.ar(60)*SinOsc.ar([121,120]),10,30);CombC.ar(CombC.ar(x,1,LFSaw.ar([0.5,1]).range(0.07,9),1,1),0.24,0.24,2)/60}

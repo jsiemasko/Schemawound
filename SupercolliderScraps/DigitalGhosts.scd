@@ -1,0 +1,1 @@
+play{d=EnvGen.ar(Env.perc(1.5,1),Dust.ar([0.5,0.45]))*SinOsc.ar(SinOsc.ar([0.1,0.11]).abs*[300,333]+300);10.do{d=d+DelayC.ar(d)};d*8e-4}

@@ -1,0 +1,1 @@
+fork{SynthDef(\x,{|f=200|EnvGen.kr(Env.perc,doneAction:2);Out.ar(0,RLPF.ar(PinkNoise.ar,f,0.5/f));}).add;s.sync;Pbind(\instrument,\x,\f,Pwhite(100,7000),\dur,Pwhite(0.01,0.1)).play;}
