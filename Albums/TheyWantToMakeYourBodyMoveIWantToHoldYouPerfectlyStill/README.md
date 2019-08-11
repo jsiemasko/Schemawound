@@ -1,5 +1,5 @@
 # They Want To Make Your Body Move. I Want To Hold You Perfectly Still
-Supercollider code for the album *"They Want To Make Your Body Move. I Want To Hold You Perfectly Still"*.  
+Supercollider code for the Schemawound album *"They Want To Make Your Body Move. I Want To Hold You Perfectly Still"*.  
 Full album is available for download from http://www.schemawound.com
 
 "They want to make your body move. I want to hold you perfectly still." is an exploration of small events magnified. 

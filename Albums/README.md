@@ -1,2 +1,2 @@
 # Albums
-Supercollider code for various schemawound albums
+Supercollider code for various Schemawound albums

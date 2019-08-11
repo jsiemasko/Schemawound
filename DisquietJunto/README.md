@@ -1,2 +1,2 @@
 # Disquiet Junto
-Supercollider code for the Disquiet Junto tracks
+Supercollider code for [Disquiet Junto](https://disquiet.com/) tracks
